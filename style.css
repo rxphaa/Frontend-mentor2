@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mont {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.frau {
+    font-family: 'Fraunces', serif;
+}
+
+@media screen and (min-width: 481px) {
+    .container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(30, 38%, 92%)
+     }   
+
+     .cont {
+        height: 50vh;
+        width: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
+        padding: 10px 20px 10px 10px;}
+
+        .content {
+            height: 50vh;
+            width: auto;    
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around ;
+            
+        }
+
+        .preco {
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .mobile {
+            display: none;
+         }    
+
+        .desk {
+            display: flex;
+        }
+        .imagem .img{
+            height: 50vh;
+             }
+        
+}
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+.content h3 {
+    font-weight: 300;
+    letter-spacing: 7px;
+   color: hsl(228, 12%, 48%);
+    }
+
+.content h1 {
+    font-weight: bold;
+    font-size: 36px;
+
+    color: hsl(212, 21%, 14%)
+}
+
+.content p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.preco {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.preco h1 {
+    color: hsl(158, 36%, 37%);
+}
+
+.preco p {
+    color: hsl(228, 12%, 48%);
+    text-decoration-line: line-through;
+}
+
+.button {
+    width: auto;
+    padding: 20px;
+    background-color: hsl(158, 36%, 37%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.button p{
+    color: hsl(30, 38%, 92%);
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: hsl(159, 39%, 17%);
+}
