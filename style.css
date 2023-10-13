@@ -55,10 +55,9 @@
 
         .desk {
             display: flex;
+             height: 50vh;
         }
-        .imagem .img{
-            height: 50vh;
-             }
+        
         
 }
 
